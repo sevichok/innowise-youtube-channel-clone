@@ -1,0 +1,116 @@
+.content-row-desc {
+    font-family: 'Mulish', sans-serif;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color: rgba(25, 32, 44, 1);
+    margin: 0;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 32.63px;
+  }
+  .content-row-desc img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  .content-row-content {
+    padding-top: 30px;
+    display: flex;
+    gap: 40px;
+  }
+  .content-row-content-item {
+    margin:0;
+    position: relative;
+  }
+  .content-third-row .content-row-content-item img {
+    width: 250px;
+    height: 150px;
+    border-radius: 14px;
+    object-fit: cover;
+  }
+  .content-figcaption  {
+    font-family: 'Mulish', sans-serif;
+    color: rgba(25, 32, 44, 1);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20.08px;
+    padding-top: 6px;
+    padding-left: 1px;
+  }
+  .content-figcaption-stats{
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+  }
+  
+  .content-figcaption-stats p {
+    font-family: 'Mulish', sans-serif;
+    color: rgba(194, 194, 194, 1);
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16.32px;
+    margin-top: 4.5px;
+  }
+  .content-timing {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.3);
+    color: rgba(255, 255, 255, 1);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17.57px;
+    padding: 3px 9px;
+    border-radius: 12px;
+    bottom: 74px;
+    right: 9px;
+    font-family: 'Mulish', sans-serif;
+  }
+  .content-third-row {
+    padding-top: 36px;
+  }
+  .content-row-desc-rec {
+    font-family: 'Mulish', sans-serif;
+    color: rgba(194, 194, 194, 1);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20.08px;
+    margin-top: 8px;
+  }
+  .content-row-header {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .content-header-btns {
+    display: flex;
+    gap: 10px;
+    padding-right: 188px;
+  }
+  .content-first-row .arrow,
+  .content-third-row .arrow {
+    margin-top: 16px;
+    margin-left: 2px;
+  }
+  .content-header-btns{
+    padding-top: 6px;
+    display: flex;
+    gap: 10px;
+    padding-right: 188px;
+  }
+  .arrow {
+    margin: 0;
+    width:28px ;
+    height:28px ;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.24);
+    box-sizing: border-box;
+  }
+  .arrow .arr2 {
+    padding: 8.4px 9.8px 8.4px 11.2px;
+    margin: 0;
+  }
+  .arrow .arr1 {
+    padding: 8.4px 11.2px 8.4px 9.8px;
+    margin: 0;
+  }
