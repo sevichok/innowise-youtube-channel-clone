@@ -1,7 +1,8 @@
 import React from 'react'
 import "../../styles/header.css"
 
-import YTLogo from "../../img-content/svg/yt.svg"
+import YTLogo from "../../img-content/YT1.svg"
+import YTTitle from "../../img-content/YT2.svg"
 import SearchLogo from "../../img-content/svg/search.svg"
 import HIconDots from "../../img-content/svg/header-dots.svg"
 import HIconCamera from "../../img-content/svg/header-camera.svg"
@@ -18,9 +19,11 @@ function Header() {
           <span></span>
         </section>
         <section className='header-logo'>
-          <img src={YTLogo} alt='logo-yt'></img>
+          <img src={YTLogo} alt='logo-yt' style={{ marginRight: "3.67px" }} className='header-logo-logo'></img>
+          <img src={YTTitle} alt='logo-yt' className='header-logo-title'></img>
         </section>
       </section>
+      <p className='hiding-text'>Margaret Phelps</p>
       <section className='header-search'>
         <input type="text" placeholder='Search'></input>
         <img className='header-input-icon' src={SearchLogo} alt="search-icon"></img>

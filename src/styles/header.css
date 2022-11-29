@@ -9,6 +9,14 @@
     gap: 28px;
     align-items: center;
   }
+  .hiding-text {
+    display: none;
+    font-family: 'Mulish', sans-serif;
+    color: rgba(25, 32, 44, 1);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20.08px;
+  }
   .header-menu {
     padding-bottom: 3px;
     display: flex;
@@ -98,3 +106,42 @@
     border-radius: 50px;
     border: 0;
   }
+
+
+  @media screen and (max-width:320px) {
+    .header {
+      padding: 10px 16px;
+      box-sizing: border-box;
+    }
+    .header-logo-title,
+    .header-search input,
+    .header-sidebar-icons,
+    .header-sidebar-user,
+    .header-sidebar   {
+      display: none;
+    }
+    .header-logo img {
+      margin-right: 0px;
+    }
+    .header-menu {
+      position: absolute;
+      left: 92%;
+      gap: 2px;
+    }
+    .header-menu span {
+      border-radius: 50%;
+      width: 5px;
+      height: 5px;
+    }
+    .header-search {
+      padding-left: 0px;
+      margin-left: auto;
+      padding-right: 18px;
+    }
+    .hiding-text {
+      display: flex;
+      padding-left: 6px;
+      padding-top: 3.5px;
+    }
+  
+    }
