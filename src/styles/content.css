@@ -326,7 +326,7 @@
 
 
 
-  @media screen and (max-width:320px) {
+  @media screen and (max-width:480px) {
     .content-row-header, 
     .first-row-subs img,
     .second-row-right,
@@ -337,7 +337,7 @@
     .first-row-cover img {
       margin-top: 1px;
       height: 100px;
-      width: 320px;
+      width: 100vw;
       border-radius: 0px;
       object-fit: cover;
     }
@@ -436,7 +436,7 @@
     display: none;
     }
     .content-third-row .content-row-content-item img {
-      width: 288px;
+      width: 90vw;
     }
     .content-row-content-item:nth-child(2),
     .content-row-content-item:nth-child(3){
@@ -444,5 +444,10 @@
     }
     .content-timing:first-of-type {
       bottom: 60px ;
+    }
+  }
+  @media screen and  (min-width:400px){
+    .content-timing {
+      right: 6vw;
     }
   }

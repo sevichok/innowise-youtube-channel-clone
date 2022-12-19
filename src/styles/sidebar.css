@@ -144,7 +144,7 @@
     padding-left: 3px;
   }
 
-  @media screen and (max-width:320px) {
+  @media screen and (max-width:480px) {
     .sidebar {
       left: 0px;
       bottom: 0px;
